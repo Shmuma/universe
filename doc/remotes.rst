@@ -115,7 +115,7 @@ To connect manually to multiple remotes, separate them by commas:
 
 .. code:: python
 
-    env.configure(remotes='vnc://localhost:5900+15900,vnc://localhost:5901+15901')
+    env.configure(remotes='vnc://localhost:5900+15900,localhost:5901+15901')
 
 If your docker container is running on a server rather than on localhost,
 just plug in the appropriate URL or IP address:
